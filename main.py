@@ -15,6 +15,6 @@ if value == 0:
 elif value == 39:
     print("double zero")
 else:
-    print("odd" if is_odd else "not odd")
-    print("black" if is_black else "red")
+    print("ODD" if is_odd else "not odd")
+    print("BLACK" if is_black else "red")
 
