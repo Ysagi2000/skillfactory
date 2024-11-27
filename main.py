@@ -1,9 +1,9 @@
 import random
 list_number = list(range(0, 40))
 value = random.choice(list_number)
+is_black=True
 print(value if value < 39 else "00")
 is_odd = True if value % 2 == 0 else False
-is_black = True
 
 if 0 < value < 12 or 18 < value < 28:
     is_black = True if is_odd else False
