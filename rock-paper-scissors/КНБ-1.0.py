@@ -4,7 +4,7 @@ import pandas as pd
 import random
 import matplotlib.pyplot as plt
 import seaborn as sns
-# from kaggle_environments import make, evaluate
+from kaggle_environments import make, evaluate/
 
 # Определяем агентов в классовом формате для удобства использования
 class RockAgent:
